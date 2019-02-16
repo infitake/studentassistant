@@ -1,0 +1,257 @@
+html{
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background: url(/img/1.jpg) no-repeat; */
+  background-size: 100%;
+  background-position: bottom;
+  background-color: white;
+  min-height: 100%;
+}
+
+form{
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form button, form h5{
+  margin: 20px 0;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: #ec407a;
+  box-shadow: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label{
+  color: #ec407a !important;
+}
+header .main-img{
+  width:100%;
+  height: 700px;
+  position: relative;
+  /* background-image: url(/img/back.jpg) no-repeat; */
+  /* margin-top: -100px; */
+}
+header .text {
+  position: absolute;
+  color: blueviolet;
+  text-align: center;
+  left: 350px;
+  top: 350px;
+  font-size: 100px;
+  transform: rotate(-30deg);
+  animation: text 15s ease-in-out;
+}
+@keyframes text {
+  0%{ opacity: 0;}
+  50%{ opacity: 0.5;}
+  100%{ opacity: 1;}
+}
+ section .main-signup{
+  position: relative;
+  margin-top: -6px;
+  width: 50%;
+}
+section .main-signin{
+  float: right;
+  overflow: hidden;
+  position: relative;
+   /* top: -20px;  */
+  margin-top: -900px;
+  width: 50%;
+  height: 950px;
+  bottom: 78px;
+} 
+ section .button-signup {
+  position: relative;
+  bottom: 120px;
+  right: -540px;
+  margin-right: 540px; 
+   
+  
+}
+section .button-signin {
+  position: relative;
+  bottom: 105px;
+  float: right;
+  right: -430px;
+
+}
+section.img-text-1{
+  background-color: white;
+  width:100%;
+  height: 400px;
+  margin-top:-30px; 
+}
+section.img-text-2{
+  background-color: white;
+  width:100%;
+  height: 400px;
+  /* margin-top:-30px;  */
+}
+.img-1{
+  padding: 110px; 
+  position: relative;
+}
+.img-2{
+  padding: 90px; 
+  float: right;
+  position: relative;
+  right: -450px;
+}
+.text-1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: relative;
+  float: right;
+  bottom: 300px;
+  right: 100px;
+  font-size: 40px; 
+}
+.text-2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: relative;
+  font-size: 40px; 
+  padding: 90px;
+}
+.all-links i {
+  display: inline-block;
+  font-size: 40px; 
+  padding: 60px;
+
+}
+i.fab.fa-html5{
+  color: orangered;
+  font-size: 60px;
+}
+i.fab.fa-angular{
+
+  color: red;
+  font-size: 60px;
+
+}
+i.fas.fa-atom{
+  color: blue;
+  font-size: 60px;
+}
+i.fab.fa-codepen{
+  font-size:60px;
+}
+i.fab.fa-css3{
+  color: blue;
+  font-size: 60px;
+}
+.regestration{
+  text-align: center;
+}
+
+.img-container{
+  margin: 0px;
+  width: 100%;
+  
+}
+img.rotating-cube{
+  position: absolute;
+  margin-top: -200px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  left: 600px;
+}
+img.rotating-cube-1{
+  position: absolute;
+  margin-top: -600px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  left: 800px;
+}
+.dashboard-container {
+  background-color: white;
+}
+.all-language {
+  background-color: rgb(116, 167, 170);
+}
+.lang-1, .lang-2, .lang-3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lang {
+  border: 1px solid black;
+  width: 200px;
+  margin: 70px;
+  padding: 50px;
+  background-color: white;
+}
+main.info_id {
+  margin-top: 60px;
+}
+.row-empty {
+  background-color: #49A0EB;
+  width: 100%;
+  height: 200px;
+  border: 1px solid black;
+} 
+.image_here{
+  border: 3px solid white;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  margin-top: -80px;
+  left: 230px;
+  position: absolute;
+  background-color:#CED6DC;
+}
+.user_image {
+  /* position: relative; */
+  background-color: white;
+  height: 100px;
+}
+
+input[type=file] {
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  /* background-color: aquamarine; */
+  /* opacity: 0.6; */
+  /* margin-top: -40px; */
+  left: 280px;
+  margin-top: 60px;
+}
+
+.user_info {
+  background-color: #E7ECF0;
+  width: 100%;
+  height:300px;
+  margin-top: -20px;
+  border: 1px solid black;
+  box-shadow: black;
+}
+span.text {
+  float: right;
+}
+b.bio {
+  margin-top: -30px;
+  margin-right: 60px;
+}
+ul.all_info {
+  margin: 50px;
+}
+li {
+  padding: 10px;
+}
